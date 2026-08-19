@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Noble Bean</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="auth-wrapper">
+        <div class="auth-box">
+            <h1>Noble Bean</h1>
+            <p class="auth-sub">Sign in to your account</p>
+
+            <form class="auth-form">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="you@example.com">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••">
+
+                <button type="button" class="btn full-width">Sign In</button>
+            </form>
+
+            <p class="auth-footer">
+                Don't have an account? <a href="#">Create one</a>
+            </p>
+            <p class="auth-footer">
+                <a href="index.html">← Back to shop</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
